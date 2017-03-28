@@ -3,9 +3,10 @@ const fizzBuzzerTest = require('../fizzBuzzer');
 
 describe('fizzBuzzerTest', function() {
 
-    it('should return number', function() {
+    it('should return numeric values and numbers divisible by 3, 5 and 15', function() {
         const normalCases = [
             { num: 15, expected: 'fizz-buzz' },
+            { num: 30, expected: 'fizz-buzz' },
             { num: 5, expected: 'buzz' },
             { num: 3, expected: 'fizz' },
             { num: 7, expected: 7 }
